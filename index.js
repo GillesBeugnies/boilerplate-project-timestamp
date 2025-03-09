@@ -1,5 +1,3 @@
-// index.js
-// where your node app starts
 
 // init project
 var express = require('express');
@@ -23,6 +21,9 @@ app.get("/", function (req, res) {
 app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
+
+
+
 
 
 
